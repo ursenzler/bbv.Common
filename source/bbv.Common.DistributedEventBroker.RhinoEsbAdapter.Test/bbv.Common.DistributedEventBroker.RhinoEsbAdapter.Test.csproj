@@ -13,31 +13,35 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Castle.Core">
-      <HintPath>..\packages\Rhino-ESB.1.8.0.1\lib\Net40\Castle.Core.dll</HintPath>
+      <HintPath>..\packages\Castle.Core.3.1.0\lib\net40-client\Castle.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Castle.Windsor">
-      <HintPath>..\packages\Rhino-ESB.1.8.0.1\lib\Net40\Castle.Windsor.dll</HintPath>
+      <HintPath>..\packages\Castle.Windsor.3.1.0\lib\net40\Castle.Windsor.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Esent.Interop">
-      <HintPath>..\packages\Rhino-ESB.1.8.0.1\lib\Net40\Esent.Interop.dll</HintPath>
+      <HintPath>..\packages\Rhino.ServiceBus.References.2.3.4.0\lib\Esent.Interop.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="log4net">
-      <HintPath>..\packages\Rhino-ESB.1.8.0.1\lib\Net40\log4net.dll</HintPath>
+      <HintPath>..\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Moq">
       <HintPath>..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
     </Reference>
     <Reference Include="Rhino.PersistentHashTable">
-      <HintPath>..\packages\Rhino-ESB.1.8.0.1\lib\Net40\Rhino.PersistentHashTable.dll</HintPath>
+      <HintPath>..\packages\Rhino.PersistentHashTable.1.7.0.0\lib\4.0\Rhino.PersistentHashTable.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Rhino.Queues">
-      <HintPath>..\packages\Rhino-ESB.1.8.0.1\lib\Net40\Rhino.Queues.dll</HintPath>
+      <HintPath>..\packages\Rhino.Queues.1.4.2.0\lib\4.0\Rhino.Queues.dll</HintPath>
     </Reference>
     <Reference Include="Rhino.ServiceBus">
-      <HintPath>..\packages\Rhino-ESB.1.8.0.1\lib\Net40\Rhino.ServiceBus.dll</HintPath>
+      <HintPath>..\packages\Rhino.ServiceBus.2.3.4.0\lib\4.0\Rhino.ServiceBus.dll</HintPath>
     </Reference>
     <Reference Include="Rhino.ServiceBus.Host">
-      <HintPath>..\packages\Rhino-ESB.1.8.0.1\lib\Net40\Rhino.ServiceBus.Host.exe</HintPath>
+      <HintPath>..\packages\Rhino.ServiceBus.Host.2.3.4.0\lib\4.0\Rhino.ServiceBus.Host.exe</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,7 +50,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Wintellect.Threading">
-      <HintPath>..\packages\Rhino-ESB.1.8.0.1\lib\Net40\Wintellect.Threading.dll</HintPath>
+      <HintPath>..\packages\PowerThreading.20101026.0\lib\net20\Wintellect.Threading.dll</HintPath>
     </Reference>
     <Reference Include="xunit">
       <HintPath>..\packages\xunit.1.8.0.1545\lib\xunit.dll</HintPath>
